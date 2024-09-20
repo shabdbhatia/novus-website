@@ -1,0 +1,109 @@
+#pdf-event1-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#pdf-event2-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+ 
+ #pdf-div-desktop-1{
+    display: none;
+}
+#pdf-div-desktop-2{
+    display: none;
+}
+#pdf-div-mobile-1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    background-color: #854527;
+    border-radius: 25px;
+    margin: 2rem 0rem 0rem 0rem;
+}
+#pdf-div-mobile-2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    background-color: #854527;
+    border-radius: 25px;
+    margin: 2rem 0rem 0rem 0rem;
+}
+.pdf-icon {
+        font-size: 4rem; /* Adjust icon size */
+        color: red; /* Make the PDF icon red like a typical PDF color */
+        margin-bottom: 10px;
+}
+.Rule-heading{
+    font-family: TheBoldFont;
+    font-weight: 50;
+    text-decoration: underline;
+}
+
+@media (min-width: 700px){
+    #pdf-event1-div{
+        flex-direction: row;
+        justify-content: center;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    #pdf-event2-div{
+        flex-direction: row;
+        justify-content: center;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+     
+     #pdf-div-desktop-1{
+        width: 80%;
+        display: block;
+        margin: 0rem 1rem 0rem 0rem;
+
+    }
+    #openshowcase-rulebook{
+        width: 80%;
+        height: 100vh;
+        object-fit: contain;
+    }
+    #roadster-rulebook{
+        width: 80%;
+        height: 100vh;
+        object-fit: contain;
+    }
+    #pdf-div-desktop-2{
+        display: block;
+        margin: 0rem 1rem 0rem 0rem;
+        width: 80%;
+    }
+    #pdf-div-mobile-1{
+        width: 20%;
+        margin: 0rem 6rem 0rem 1rem;
+    }
+    #pdf-div-mobile-2{
+        width: 20%;
+        margin: 0rem 6rem 0rem 1rem;
+    }
+    .pdf-icon {
+            font-size: 4rem; /* Adjust icon size */
+            color: #EB8E62; /* Make the PDF icon red like a typical PDF color */
+            margin-bottom: 10px;
+            transition: 0.3s ease;
+    }
+    .pdf-icon:hover{
+        transform: scale(1.1);
+    }
+    
+    .Rule-heading{
+        font-family: TheBoldFont;
+        font-weight: 50;
+        text-decoration: underline;
+    }
+}

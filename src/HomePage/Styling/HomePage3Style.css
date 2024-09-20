@@ -1,0 +1,67 @@
+#about-container{
+    margin: 3.5rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#about-heading{
+    font-family: Heavitas;
+    font-size: 2.5rem;
+    text-wrap: wrap;
+    text-decoration: underline;
+}
+#about-section-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#854527;
+
+    padding: 1rem 0rem 0rem 0rem;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+#about-section-container:hover {
+    transform: scale(1.02);
+}
+#about-image-div{
+    width: 80%;
+}
+#tisb-image{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#about-text-div{
+    width: 85%;
+    text-align: justify;
+}
+
+/* CSS FOR DESKTOP  */
+
+@media (min-width: 700px){
+    #about-container{
+        margin: 3.5rem 0rem 0rem 0rem;
+    
+    }
+    #about-heading{
+        font-size: 4rem;
+        text-wrap: wrap;
+        text-decoration: underline;
+    }
+    #about-section-container{
+        flex-direction: row;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    #about-image-div{
+        /* padding: 1rem 1rem 1rem 1rem; */
+        width: 100%;
+    }
+    #tisb-image{
+        transform: scale(0.7);
+    }
+    #about-text-div{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}

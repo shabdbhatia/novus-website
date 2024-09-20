@@ -1,0 +1,55 @@
+#s2-container{
+    margin: 3rem 0rem 0rem 0rem;
+}
+#s2-headingl1{
+    font-family: TheBoldFont;
+    font-size: 3rem;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+#s2-text-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: TheBoldFont;
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+#s2-headingl2-s1{
+    font-size: 4rem;
+    background: url(./../../Resources/ComicBkg.jpeg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0rem 0.5rem 0rem 0rem;
+}
+#s2-headingl2-s2{
+    margin: 0rem 0rem 0rem;
+    font-size: 4rem;
+}
+
+
+/* CSS FOR DESKTOP  */
+
+@media (min-width: 700px){
+    #s2-container{
+        margin: 4rem 0rem 0rem 0rem;
+    }
+    #s2-headingl1{
+        font-size: 6rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    #s2-text-div{
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    #s2-headingl2-s1{
+        font-size: 8rem;
+        margin: 0rem 0.5rem 0rem 0rem;
+    }
+    #s2-headingl2-s2{
+        margin: 0rem 0rem 0rem;
+        font-size: 8rem;
+    }
+}
