@@ -5,9 +5,12 @@ const HomePage = () => {
   return (
     <div className="container" id='section1'>
         <h2 className='section1-subheading' id='Novus2024'>NOVUS 2024</h2>
-        <h1 className='section1-heading' id='Main-Heading-Landing'>INDIA'S LARGEST</h1>
-        <h1 className='section1-heading' id='Main-Heading-Landing2'>STUDENT-LED</h1>
-        <h1 className='section1-heading' id='Main-Heading-Landing3'>ROBOTICS FEST</h1>
+        <h1 className='section1-heading' id='Main-Heading-Landing'>TISB's Robotics Fest</h1>
+        <h1 className='section1-heading' id='Main-Heading-Landing2'>With prizes upto</h1>
+        <div className="text-container" id="s2-text-div">
+          <h1 id="s2-headingl2-s1">4.5 </h1>
+          <h1 id="s2-headingl2-s2">Lakhs!!</h1>
+        </div>
         <button className='primary-btn' id='register-button'>Register Now!</button>
     </div>
   );

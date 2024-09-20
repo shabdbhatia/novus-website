@@ -24,7 +24,8 @@
     justify-content: center;
 
     width: 80%;
-    background-color: #854527;
+    background-color: #325598;
+    opacity: 75%;
     border-radius: 25px;
     margin: 2rem 0rem 0rem 0rem;
 }
@@ -35,29 +36,34 @@
     justify-content: center;
 
     width: 80%;
-    background-color: #854527;
+    background-color:#C06F49;
+    opacity: 75%;
     border-radius: 25px;
     margin: 2rem 0rem 0rem 0rem;
 }
 .pdf-icon {
         font-size: 4rem; /* Adjust icon size */
-        color: red; /* Make the PDF icon red like a typical PDF color */
-        margin-bottom: 10px;
 }
-.Rule-heading{
+#rulebook-heading{
     font-family: TheBoldFont;
     font-weight: 50;
     text-decoration: underline;
 }
+#pdficon-1 {
+    color: #E4FCFF; 
+}
+#pdficon-2{
+color: #325598;
+}
 
 @media (min-width: 700px){
     #pdf-event1-div{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         margin: 1rem 0rem 1rem 0rem;
     }
     #pdf-event2-div{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         margin: 1rem 0rem 1rem 0rem;
     }
@@ -85,18 +91,18 @@
     }
     #pdf-div-mobile-1{
         width: 20%;
-        margin: 0rem 6rem 0rem 1rem;
+        margin: 2.5rem 0rem 6rem 1rem;
     }
     #pdf-div-mobile-2{
         width: 20%;
-        margin: 0rem 6rem 0rem 1rem;
+        margin: 2.5rem 0rem 6rem 1rem;
     }
     .pdf-icon {
-            font-size: 4rem; /* Adjust icon size */
-            color: #EB8E62; /* Make the PDF icon red like a typical PDF color */
+            font-size: 4rem;
             margin-bottom: 10px;
             transition: 0.3s ease;
     }
+    
     .pdf-icon:hover{
         transform: scale(1.1);
     }

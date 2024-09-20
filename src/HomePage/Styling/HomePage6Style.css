@@ -21,7 +21,8 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: #854527;
+    background-color: #325598;
+    opacity: 75%;
     width: 80%;
     border-radius: 25px;
     transition: 0.3s ease;
@@ -42,6 +43,7 @@
 #sponsor-1-desc-div{
     width: 82%;
     text-align: justify;
+    font-family: Montserrat-SemiBold;
 }
 
 @media (min-width: 700px){
@@ -69,5 +71,7 @@
         transform: scale(0.7);
     }
     #sponsor-1-desc-div{
+        font-size: 1.2rem;
+        padding: 0rem 5rem 0rem 0rem;
     }
 }

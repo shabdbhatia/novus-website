@@ -15,7 +15,8 @@
     align-items: center;
     
     width: 80%;
-    background-color: #854527;
+    background-color: #325598;
+    opacity: 75%;
     border-radius: 25px;
     transition: 0.3s ease;
 }
@@ -31,7 +32,7 @@
     font-family: Heavitas;
     font-size: 2rem;
     text-wrap: wrap;
-    color: #FFAF89;
+    color: #E4FCFF;
 }
 #event-1-image-div{
     width: 80%;
@@ -43,6 +44,8 @@
 #event-1-desc-div{
     width: 82%;
     text-align: justify;
+    font-family: Montserrat-SemiBold;
+    
 }
 
 #event2-container{
@@ -51,7 +54,8 @@
     align-items: center;
 
     width: 80%;
-    background-color: #854527;
+    background-color: #C06F49;
+    opacity: 75%;
     border-radius: 25px;
     margin: 2rem 0rem 0rem 0rem;
     transition: 0.3s ease;
@@ -68,7 +72,7 @@
     font-family: Heavitas;
     font-size: 2rem;
     text-wrap: wrap;
-    color: #6E92D6;
+    color: #F9BA9C;
 }
 #event-2-image-div{
     width: 80%;
@@ -80,12 +84,14 @@
 #event-2-desc-div{
     width: 82%;
     text-align: justify;
+    font-family: Montserrat-SemiBold;
+    font-size: 1.2rem;
 }
 
 /* DESKTOP CSS  */
 @media (min-width: 700px){
     #event-container{
-        margin: 3rem 0rem 0rem 0rem;
+        margin: 12rem 0rem 0rem 0rem;
     }
     #eventdiv-heading{
         font-size: 4rem;
@@ -110,6 +116,8 @@
     #event-1-desc-div{
         width: 82%;
         text-align: justify;
+        font-size: 1.2rem;
+    padding: 0rem 5rem 0rem 0rem;
     }
     
     #event2-container{
@@ -132,5 +140,7 @@
     #event-2-desc-div{
         width: 82%;
         text-align: justify;
+        font-size: 1.2rem;
+    padding: 0rem 5rem 0rem 0rem;
     }
 }

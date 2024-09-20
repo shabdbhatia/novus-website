@@ -11,6 +11,10 @@
   font-family: TheBoldFont;
   src: url(./Resources/Fonts/TheBoldFont.ttf);
 }
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(./Resources/Fonts/Montserrat-SemiBold.ttf);
+}
 
 body, html, #root {
   margin: 0;
@@ -21,11 +25,21 @@ body, html, #root {
   position: relative;
 }
 
+body{
+  background-image: url('./Resources/TintedBkg4.jpeg');
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
-  background: url(./../src/Resources/Tinted-Bkg2.jpeg);
-  background-position: top center;
-  background-repeat: repeat-y;
+  /* background: url('./../src/Resources/Tinted-Bkg.jpeg'); */
+
+  /* background-color: rgb(39, 38, 38); */
+  /* background-position: top center;
+  background-repeat: repeat-y; */
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
   background-size: contain;
   background-attachment: scroll;
   overflow: hidden;

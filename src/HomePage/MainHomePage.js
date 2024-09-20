@@ -14,11 +14,12 @@ const Landing = () => {
         <LandingS1 />
       </div>
       
-        <LandingS2 />
-      
       <div id="about">
         <LandingS3 />
       </div>
+      
+      {/* <LandingS2 /> */}
+
       <div id="events">
         <LandingS4 />
       </div>
@@ -28,7 +29,7 @@ const Landing = () => {
       <div id="sponsors">
         <LandingS6 />
       </div>
-      <div id="team">
+      <div id="teams">
         <LandingS7 />
       </div>
     </div>
