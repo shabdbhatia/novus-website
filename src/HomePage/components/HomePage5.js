@@ -23,7 +23,7 @@ const HomePage4 = () => {
           download
           className="pdf-download"
         >
-          <AiOutlineFilePdf className="pdf-icon" /> {/* React Icon for PDF */}
+          <AiOutlineFilePdf className="pdf-icon" id="pdficon-1" />
         </a>
         <h2 className="Rule-heading" id="rulebook-heading">
           Open Showcase
@@ -36,7 +36,7 @@ const HomePage4 = () => {
       <div id="pdf-div-desktop-2">
         <iframe
           class="pdf"
-          src={require("./../../Resources/Rulebooks/Scoresheet.pdf")}
+          src={require("./../../Resources/Rulebooks/Roadster Rulebook.pdf")}
           id="openshowcase-rulebook"
           title="Open Showcase Scoresheet"
         ></iframe>
@@ -48,7 +48,7 @@ const HomePage4 = () => {
           download
           className="pdf-download"
         >
-          <AiOutlineFilePdf className="pdf-icon" /> {/* React Icon for PDF */}
+          <AiOutlineFilePdf className="pdf-icon" id="pdficon-2"/>
         </a>
         <h2 className="Rule-heading" id="rulebook-heading">
           Roadster

@@ -1,5 +1,5 @@
 #about-container{
-    margin: 3.5rem 0rem 0rem 0rem;
+    margin: 3rem 0rem 0rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#854527;
+    background-color:#C06F49;
+    opacity: 75%;
 
     padding: 1rem 0rem 0rem 0rem;
     border-radius: 25px;
@@ -32,17 +33,17 @@
     width: 100%;
     border-radius: 30px;
 }
-
 #about-text-div{
     width: 85%;
     text-align: justify;
+    font-family: Montserrat-SemiBold;
 }
 
 /* CSS FOR DESKTOP  */
 
 @media (min-width: 700px){
     #about-container{
-        margin: 3.5rem 0rem 0rem 0rem;
+        margin: 12rem 0rem 0rem 0rem;
     
     }
     #about-heading{
@@ -62,6 +63,7 @@
         transform: scale(0.7);
     }
     #about-text-div{
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 1rem 5rem 1rem 1rem;
+        font-size: 1.2rem;
     }
 }
