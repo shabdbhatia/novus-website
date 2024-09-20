@@ -1,12 +1,32 @@
+@font-face {
+  font-family: CocogoosePro;
+  src: url(./Resources/Fonts/Cocogoose_Pro.ttf);
+  /* font-weight: bold; */
+}
+@font-face {
+  font-family: Heavitas;
+  src: url(./Resources/Fonts/Heavitas.ttf);
+}
+@font-face {
+  font-family: TheBoldFont;
+  src: url(./Resources/Fonts/TheBoldFont.ttf);
+}
+
 body, html, #root {
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: 'Arial', sans-serif;
   color: white;
+  position: relative;
 }
 
 .App {
   text-align: center;
-  background-color: black;
+  background: url(./../src/Resources/Tinted-Bkg2.jpeg);
+  background-position: top center;
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-attachment: scroll;
+  overflow: hidden;
 }

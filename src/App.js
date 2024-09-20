@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './Header/Header';
-import HomePage from './HomePage/HomePage';
+import Navbar from './Header/Navbar';
+import Landing from './HomePage/MainHomePage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <HomePage />
+      <Navbar />
+      <Landing />
     </div>
   );
 }

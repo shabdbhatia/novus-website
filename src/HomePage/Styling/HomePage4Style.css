@@ -1,0 +1,136 @@
+#event-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#eventdiv-heading{
+    font-family: Heavitas;
+    font-size: 2.5rem;
+    text-wrap: wrap;
+    text-decoration: underline;
+}
+#event1-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 80%;
+    background-color: #854527;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+#event1-container:hover {
+    transform: scale(1.02);
+}
+#event1-subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#event1-title{
+    font-family: Heavitas;
+    font-size: 2rem;
+    text-wrap: wrap;
+    color: #FFAF89;
+}
+#event-1-image-div{
+    width: 80%;
+}
+#showcase-logo{
+    width: 100%;
+    border-radius: 30px;
+}
+#event-1-desc-div{
+    width: 82%;
+    text-align: justify;
+}
+
+#event2-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 80%;
+    background-color: #854527;
+    border-radius: 25px;
+    margin: 2rem 0rem 0rem 0rem;
+    transition: 0.3s ease;
+}
+#event2-container:hover {
+    transform: scale(1.02);
+}
+#event2-subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#event2-title{
+    font-family: Heavitas;
+    font-size: 2rem;
+    text-wrap: wrap;
+    color: #6E92D6;
+}
+#event-2-image-div{
+    width: 80%;
+}
+#Roadster-logo{
+    width: 100%;
+    border-radius: 30px;
+}
+#event-2-desc-div{
+    width: 82%;
+    text-align: justify;
+}
+
+/* DESKTOP CSS  */
+@media (min-width: 700px){
+    #event-container{
+        margin: 3rem 0rem 0rem 0rem;
+    }
+    #eventdiv-heading{
+        font-size: 4rem;
+    }
+    #event1-container{
+        padding-right: 2rem;
+    }
+    #event1-subcontainer{
+        flex-direction: row;
+        align-items: center;
+    }
+    #event1-title{
+        font-size: 2.5rem;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    #event-1-image-div{
+        width: 100%;
+    }
+    #showcase-logo{
+        transform: scale(0.7);
+    }
+    #event-1-desc-div{
+        width: 82%;
+        text-align: justify;
+    }
+    
+    #event2-container{
+        padding-right: 2rem;
+    }
+    #event2-subcontainer{
+        flex-direction: row;
+        align-items: center;
+    }
+    #event2-title{
+        font-size: 2.5rem;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    #event-2-image-div{
+        width: 100%;
+    }
+    #Roadster-logo{
+        transform: scale(0.7);
+    }
+    #event-2-desc-div{
+        width: 82%;
+        text-align: justify;
+    }
+}
