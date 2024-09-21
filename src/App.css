@@ -29,6 +29,7 @@ body{
   background-image: url('./Resources/TintedBkg4.jpeg');
   background-repeat: repeat-y;
   background-size: cover;
+  padding: 10rem 0rem 0rem 0rem;
 }
 
 .App {

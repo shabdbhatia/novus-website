@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faXTwitter, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faXTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import './../Styling/HomePage7Style.css';
 class Landing7 extends Component {
     state = {}
@@ -9,7 +9,7 @@ class Landing7 extends Component {
             <footer class='footer' id='landing-s7-footer'>
                 <div class="footer-container">
                     <div class="footer-logos" id='footer-logo-div'>
-                        <a href="https://instagram.com" class="social-icon" target="_blank">
+                        <a href="https://instagram.com/tisbnovus" class="social-icon" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} size="2x" color="#ffffff" />
                         </a>
                         {/* <a href="https://facebook.com" class="social-icon" target="_blank">
@@ -18,8 +18,8 @@ class Landing7 extends Component {
                         <a href="https://twitter.com" class="social-icon" target="_blank">
                             <FontAwesomeIcon icon={faXTwitter} size="2x" color="#ffffff" />
                         </a> */}
-                        <a href="https://linkedin.com" class="social-icon" target="_blank">
-                            <FontAwesomeIcon icon={faLinkedin} size="2x" color="#ffffff" />
+                        <a href="https://youtube.com/" class="social-icon" target="_blank">
+                            <FontAwesomeIcon icon={faYoutube} size="2x" color="#ffffff" />
                         </a>
                     </div>
 

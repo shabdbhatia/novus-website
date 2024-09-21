@@ -37,6 +37,9 @@
   border-radius: 50px;
   transition: 0.3s ease;
 }
+#Main-Heading-Landing{
+  font-size: 3rem;
+}
 .primary-btn:hover {
     background-color:#1a4491;
   }

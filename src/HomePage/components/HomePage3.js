@@ -18,9 +18,19 @@ const HomePage3 = () => {
         
         <div id="about-text-div">
             <p>
-              Magna qui qui proident nisi magna qui veniam elit est. Aute voluptate excepteur commodo Lorem sunt esse nisi occaecat irure pariatur incididunt. Lorem pariatur qui irure et.
-
-              Aliqua voluptate nisi duis consectetur ipsum nostrud culpa eiusmod duis laborum commodo do aliqua. Reprehenderit ad commodo magna dolor duis dolore dolore qui occaecat enim. Exercitation nostrud eu ex minim dolore amet ea id officia. Dolor do officia consequat eiusmod minim sit labore laborum elit fugiat velit reprehenderit. Aliquip incididunt ut aliqua aliquip ipsum in consequat proident magna anim. Ea nulla duis cillum id ad id proident sit occaecat proident eiusmod nostrud. Magna ad excepteur occaecat aliquip sunt amet voluptate duis nulla elit laboris quis sint culpa.
+            NOVUS 2024 is the first Student-led Robotics Fest in the Silicon Valley of India. It is
+scheduled for 19 October 2024, and is organised and hosted entirely by the students of The
+International School Bangalore, for enthusiasts across the city.
+The International School Bangalore (TISB) is one of the premier international schools in the
+country and is rated among the top international schools in the world. TISB has a legacy of
+shaping global thinkers, with many records of academic excellence and great holistic growth.
+This is balanced with a wealth of co-curricular opportunity to create thinkers with a desire of
+lifelong learning.
+NOVUS 2024 is a non-profit Robotics Fest aimed at building a community of Mechatronics
+and Robotics aficionados. This one-day event, held on 19 October 2024, encourages skill
+development in enthusiasts and establishes a platform for networking between learners and
+experts. This year, NOVUS 2024 will be hosting 2 unique competitive events in addition to a
+collection of mini games surrounding robotics and engineering trivia.
             </p>
         </div>
       </div>
