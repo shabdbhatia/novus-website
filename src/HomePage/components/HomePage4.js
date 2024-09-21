@@ -7,7 +7,7 @@ const HomePage4 = () => {
       <h1 id="eventdiv-heading">Our Main Events</h1>
 
       <div id="event1-container">
-        <h2 id="event1-title"> Open Showcase</h2>
+        <h2 id="event1-title"> Open Innovation</h2>
         <div id="event1-subcontainer">
           <div id="event-1-image-div">
             <img
@@ -19,18 +19,15 @@ const HomePage4 = () => {
           </div>
           <div id="event-1-desc-div">
             <p>
-              Magna qui qui proident nisi magna qui veniam elit est. Aute
-              voluptate excepteur commodo Lorem sunt esse nisi occaecat irure
-              pariatur incididunt. Lorem pariatur qui irure et. Aliqua voluptate
-              nisi duis consectetur ipsum nostrud culpa eiusmod duis laborum
-              commodo do aliqua. Reprehenderit ad commodo magna dolor duis
-              dolore dolore qui occaecat enim. Exercitation nostrud eu ex minim
-              dolore amet ea id officia. Dolor do officia consequat eiusmod
-              minim sit labore laborum elit fugiat velit reprehenderit. Aliquip
-              incididunt ut aliqua aliquip ipsum in consequat proident magna
-              anim. Ea nulla duis cillum id ad id proident sit occaecat proident
-              eiusmod nostrud. Magna ad excepteur occaecat aliquip sunt amet
-              voluptate duis nulla elit laboris quis sint culpa.
+            Open Innovation: In this Sandbox Event, participants must design and demonstrate a functional robot that adheres to one of three themes:  
+
+Biomedical and Pharmaceutical Engineering,  
+
+Manufacturing Infrastructure and Logistics, 
+
+Environment Conservation.  
+
+This competition is focused on testing your creativity and critical thinking skills, with the winners being determined after a demonstration on Event Day by a panel of PhD Candidates from the Indian Institute of Science (IISc) Bangalore. 
             </p>
           </div>
         </div>
@@ -49,18 +46,7 @@ const HomePage4 = () => {
           </div>
           <div id="event-2-desc-div">
             <p>
-              Magna qui qui proident nisi magna qui veniam elit est. Aute
-              voluptate excepteur commodo Lorem sunt esse nisi occaecat irure
-              pariatur incididunt. Lorem pariatur qui irure et. Aliqua voluptate
-              nisi duis consectetur ipsum nostrud culpa eiusmod duis laborum
-              commodo do aliqua. Reprehenderit ad commodo magna dolor duis
-              dolore dolore qui occaecat enim. Exercitation nostrud eu ex minim
-              dolore amet ea id officia. Dolor do officia consequat eiusmod
-              minim sit labore laborum elit fugiat velit reprehenderit. Aliquip
-              incididunt ut aliqua aliquip ipsum in consequat proident magna
-              anim. Ea nulla duis cillum id ad id proident sit occaecat proident
-              eiusmod nostrud. Magna ad excepteur occaecat aliquip sunt amet
-              voluptate duis nulla elit laboris quis sint culpa.
+            In this Formula 1-style event, participants must build remotely controlled ground-racing robots: optimising factors of speed, manoeuvrability, weight and power to design the winner of a 10 lap, 100-metre-long race. The contest will test not only your robot making capabilities, but also your reflexes and quick thinking on the track. 
             </p>
           </div>
         </div>

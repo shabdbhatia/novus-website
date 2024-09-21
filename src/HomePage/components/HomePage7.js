@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faXTwitter, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faXTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import './../Styling/HomePage7Style.css';
 class Landing7 extends Component {
     state = {}
@@ -19,7 +19,7 @@ class Landing7 extends Component {
                             <FontAwesomeIcon icon={faXTwitter} size="2x" color="#ffffff" />
                         </a> */}
                         <a href="https://linkedin.com" class="social-icon" target="_blank">
-                            <FontAwesomeIcon icon={faLinkedin} size="2x" color="#ffffff" />
+                            <FontAwesomeIcon icon={faYoutube} size="2x" color="#ffffff" />
                         </a>
                     </div>
 
