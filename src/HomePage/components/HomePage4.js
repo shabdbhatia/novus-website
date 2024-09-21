@@ -13,7 +13,7 @@ const HomePage4 = () => {
             <img
               className="image"
               id="showcase-logo"
-              src={require("./../../Resources/Robot-Image.png")}
+              src={require("./../../Resources/OpenInnovationLogo-2.png")}
               alt="OpenShowcase-Image"
             />
           </div>

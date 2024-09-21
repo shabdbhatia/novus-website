@@ -11,10 +11,8 @@ import LandingS8 from './components/HomePage8';
 const Landing = () => {
   return (
     <div className="App">
-      <div id="home">
-        <LandingS1 />
-      </div>
       
+      <LandingS1 />
       <div id="about">
         <LandingS3 />
       </div>
