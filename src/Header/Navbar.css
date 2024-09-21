@@ -59,13 +59,13 @@
         display: flex; /* Show it as flex to allow transition */
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 80px;
         right: 0;
         background-color: #333;
         width: 100%;
         text-align: center;
     opacity: 0; /* Start with opacity 0 */
-    transform: translateY(-40px); /* Start slightly above */
+    transform: translateY(-100px); /* Start slightly above */
     transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition for both */
     visibility: hidden; /* Hide the element */
     }

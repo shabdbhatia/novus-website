@@ -14,15 +14,15 @@ const HomePage6 = () => {
           <img
             className="image"
             id="sponsor1-logo"
-            src={require("./../../Resources/Robot-Image.png")}
+            src={require("./../../Resources/ChampionsGroup.png")}
             alt="ChampionsGroup-Logo"
           />
         </div>
-        <div id="sponsor-1-desc-div">
+        {/* <div id="sponsor-1-desc-div">
           <p>
             
           </p>
-        </div>
+        </div> */}
 
         </div>
         
