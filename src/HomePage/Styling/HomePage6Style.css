@@ -48,7 +48,7 @@
 
 @media (min-width: 700px){
     #sponsor-container{
-        margin: 1rem 0rem 0rem 0rem;
+        margin: 0;
     }
     #sponsor1-subcontainer{
         flex-direction: row;

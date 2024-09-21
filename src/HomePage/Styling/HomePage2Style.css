@@ -1,5 +1,5 @@
 #s2-container{
-    margin: 3rem 0rem 0rem 0rem;
+    margin: 0;
 }
 #s2-headingl1{
     font-family: TheBoldFont;
@@ -14,7 +14,7 @@
 
 @media (min-width: 700px){
     #s2-container{
-        margin: 5rem 0rem 0rem 0rem;
+        margin: 0;
     }
     #s2-headingl1{
         font-size: 6rem;

@@ -29,7 +29,7 @@ body{
   background-image: url('./Resources/TintedBkg4.jpeg');
   background-repeat: repeat-y;
   background-size: cover;
-  padding: 10rem 0rem 0rem 0rem;
+  padding: 0;
 }
 
 .App {
@@ -44,4 +44,8 @@ body{
   background-size: contain;
   background-attachment: scroll;
   overflow: hidden;
+}
+
+.virtualPadding {
+  height: 6rem;
 }

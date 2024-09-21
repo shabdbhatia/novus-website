@@ -11,30 +11,26 @@ import LandingS8 from './components/HomePage8';
 const Landing = () => {
   return (
     <div className="App">
-      
+      <div id="home" class="virtualPadding"></div>
       <LandingS1 />
-      <div id="about">
-        <LandingS3 />
-      </div>
-      
-      {/* <LandingS2 /> */}
 
-      <div id="events">
-        <LandingS4 />
-      </div>
-      <div id="rulebooks">
-        <LandingS5 />
-      </div>
-      <div id="sponsors">
-        <LandingS6 />
-      </div>
-      <div id="team">
-        <LandingS8 />
-      </div>
-      <div id="contact">
-        <LandingS7 />
-      </div>
-      
+      <div id="about" class="virtualPadding"></div>
+      <LandingS3 />
+
+      <div id="events" class="virtualPadding"></div>
+      <LandingS4 />
+
+      <div id="rulebooks" class="virtualPadding"></div>
+      <LandingS5 />
+
+      <div id="sponsors" class="virtualPadding"></div>
+      <LandingS6 />
+
+      {/* <div id="team" class="virtualPadding"></div> */}
+      <div id="contact" class="virtualPadding"></div>
+      <LandingS8 />
+
+      <LandingS7 />
     </div>
   );
 };

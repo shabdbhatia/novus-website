@@ -45,7 +45,10 @@
     width: 82%;
     text-align: justify;
     font-family: Montserrat-SemiBold;
-    
+}
+
+#event-1-desc-div > p > ul > li {
+    text-align: left;
 }
 
 #event2-container{
@@ -75,9 +78,10 @@
     color: #F9BA9C;
 }
 #event-2-image-div{
+    display: none;
     width: 80%;
 }
-#Roadster-logo{
+#roadster-logo{
     width: 100%;
     border-radius: 30px;
 }
@@ -91,14 +95,14 @@
 /* DESKTOP CSS  */
 @media (min-width: 700px){
     #event-container{
-        margin: 12rem 0rem 0rem 0rem;
+        margin: 0;
     }
     #eventdiv-heading{
         font-size: 4rem;
     }
-    #event1-container{
+    /* #event1-container{
         padding-right: 2rem;
-    }
+    } */
     #event1-subcontainer{
         flex-direction: row;
         align-items: center;
@@ -117,11 +121,10 @@
         width: 82%;
         text-align: justify;
         font-size: 1.2rem;
-    padding: 0rem 5rem 0rem 0rem;
+        padding: 0rem 5rem 0rem 0rem;
     }
-    
-    #event2-container{
-        padding-right: 2rem;
+    #event2-container {
+        width: 65vw;
     }
     #event2-subcontainer{
         flex-direction: row;
@@ -132,15 +135,16 @@
         margin: 1rem 0rem 0rem 0rem;
     }
     #event-2-image-div{
-        width: 100%;
+        display: none;
+        width: 0%;
     }
-    #Roadster-logo{
+    #roadster-logo{
         transform: scale(0.7);
     }
     #event-2-desc-div{
         width: 82%;
         text-align: justify;
         font-size: 1.2rem;
-    padding: 0rem 5rem 0rem 0rem;
+        padding: 0rem 5rem 0rem 5rem;
     }
 }

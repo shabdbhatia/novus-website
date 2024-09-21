@@ -10,6 +10,7 @@ const Navbar = () => {
 
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
+    console.log(section);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
@@ -28,13 +29,13 @@ const Navbar = () => {
       </div>
       
       <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
-        <a href="#home" onClick={() => scrollToSection('home')}>Home</a>
-        <a href="#about" onClick={() => scrollToSection('about')}>About</a>
-        <a href="#events" onClick={() => scrollToSection('events')}>Events</a>
-        <a href="#rules" onClick={() => scrollToSection('rulebooks')}>Rulebooks</a>
-        <a href="#sponsors" onClick={() => scrollToSection('sponsors')}>Sponsors</a>
+        <a onClick={() => scrollToSection('home')}>Home</a>
+        <a onClick={() => scrollToSection('about')}>About</a>
+        <a onClick={() => scrollToSection('events')}>Events</a>
+        <a onClick={() => scrollToSection('rulebooks')}>Rulebooks</a>
+        <a onClick={() => scrollToSection('sponsors')}>Sponsors</a>
         {/* <a href="#team" onClick={() => scrollToSection('team')}>Team</a> */}
-        <a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a>
+        <a onClick={() => scrollToSection('contact')}>Contact</a>
       </div>
       
       <div className="navbar-toggle" onClick={toggleMenu}>

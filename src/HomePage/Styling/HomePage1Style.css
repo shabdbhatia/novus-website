@@ -4,7 +4,7 @@
   /* background-color: black; */
   /* background-image: url('./../../Resources/Tinted-Bkg.jpeg'); */
   /* height: 64rem; */
-  margin: 2rem 0rem 0rem 0rem;
+  margin: 0;
 }
 .section1-subheading{
   font-family: Heavitas;
@@ -67,9 +67,6 @@
 }
 /* CSS FOR DESKTOP NOW */
 @media (min-width: 700px){
-  #section1{
-    margin: 12rem 0rem 0rem 0rem;
-  }
   .section1-subheading{
     font-size: 3.5rem;
     margin: 2rem 0rem 1rem 0rem;
