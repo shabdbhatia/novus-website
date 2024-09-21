@@ -6,6 +6,7 @@ import LandingS4 from './components/HomePage4';
 import LandingS5 from './components/HomePage5';
 import LandingS6 from './components/HomePage6';
 import LandingS7 from './components/HomePage7';
+import LandingS8 from './components/HomePage8';
 
 const Landing = () => {
   return (
@@ -29,9 +30,13 @@ const Landing = () => {
       <div id="sponsors">
         <LandingS6 />
       </div>
-      <div id="teams">
+      <div id="team">
+        <LandingS8 />
+      </div>
+      <div id="contact">
         <LandingS7 />
       </div>
+      
     </div>
   );
 };

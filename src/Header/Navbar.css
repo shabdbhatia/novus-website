@@ -5,24 +5,28 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    /* background-color: transparent; */
-    overflow: hidden;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Ensure it's fixed at the top */
+    left: 0;
+    width: 100%; /* Full width of the screen */
+    z-index: 9999; /* Ensures the navbar stays on top */
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: add a semi-transparent background */
 }
 
+/* Logo styling */
 #novus-logo {
     height: 6rem;
 }
 
-.navbar-logo h2 {
-    color: #fff;
-    margin: 0;
-}
-
+/* Navbar links container */
 .navbar-links {
     display: flex;
     gap: 15px;
+    margin-left: auto;
+    margin-right: 2rem; /* Ensures the links stay to the right */
 }
 
+/* Links styling */
 .navbar-links a {
     color: #919191;
     text-decoration: none;
@@ -43,7 +47,6 @@
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    transition: transform 0.3s ease;
 }
 
 .navbar-toggle .bar {
@@ -53,31 +56,40 @@
     margin: 4px 0;
 }
 
+/* Style for the close (X) icon */
+.close-icon {
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
 /* Responsive styling */
 @media (max-width: 768px) {
     .navbar-links {
-        display: flex; /* Show it as flex to allow transition */
+        display: flex;
         flex-direction: column;
         position: absolute;
-        top: 80px;
+        top: 0px;
         right: 0;
         background-color: #333;
         width: 100%;
         text-align: center;
-    opacity: 0; /* Start with opacity 0 */
-    transform: translateY(-100px); /* Start slightly above */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition for both */
-    visibility: hidden; /* Hide the element */
+        opacity: 0;
+        transform: translateY(-100px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        visibility: hidden;
     }
 
     .navbar-links.active {
-        opacity: 1; /* Fade in */
-        transform: translateY(0); /* Move to original position */
-        visibility: visible; /* Make it visible */
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
     }
 
     .navbar-toggle {
         display: flex; /* Show the toggle in mobile view */
         transition: transform 0.5s ease;
+        margin-right: 2rem;
+        z-index: 9999;
     }
 }
