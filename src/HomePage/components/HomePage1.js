@@ -11,7 +11,11 @@ const HomePage = () => {
           <h1 id="s2-headingl2-s1">4.5 </h1>
           <h1 id="s2-headingl2-s2">Lakhs!!</h1>
         </div>
-        <button className='primary-btn' id='register-button'>Register Now!</button>
+
+        <a href='https://forms.office.com/r/PDGij0wEw4' target='blank'>
+          <button className='primary-btn' id='register-button'>Register Now!</button>
+        </a>
+        {/* <button className='primary-btn' id='register-button'>Register Now!</button> */}
     </div>
   );
 };
