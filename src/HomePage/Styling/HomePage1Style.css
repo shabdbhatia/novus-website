@@ -8,7 +8,7 @@
 }
 .section1-subheading{
   font-family: Heavitas;
-  color: #325598;
+  color: var(--col-bg-blue);
   font-size: 2rem;
   margin: 1rem 0rem 0rem 0rem;
   text-shadow: -4px -4px 0 #101a2d, 4px -4px 0 #101a2d, -4px 4px 0 #101a2d, 4px 4px 0 #101a2d;
@@ -24,7 +24,7 @@
   font-size: 1.5rem;
 }
 .primary-btn{
-  background-color:#325598;
+  background-color: var(--col-bg-blue);
   padding: 1rem 2rem;
   margin-top: 1.5rem;
 

@@ -16,6 +16,13 @@
   src: url(./Resources/Fonts/Montserrat-SemiBold.ttf);
 }
 
+:root {
+  --col-bg-orange: #C06F49;
+  --col-fg-orange: #F9BA9C;
+  --col-bg-blue: #325598;
+  --col-fg-accent: #E4FCFF;
+}
+
 body, html, #root {
   margin: 0;
   padding: 0;
@@ -47,11 +54,11 @@ body{
 }
 
 .virtualPadding {
-  height: 15rem;
+  height: 7.5rem;
 }
 
 @media (min-aspect-ratio: 1.4) {
   .virtualPadding {
-    height: 12rem;
+    height: 6rem;
   }
 }

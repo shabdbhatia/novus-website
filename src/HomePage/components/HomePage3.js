@@ -5,7 +5,7 @@ const HomePage3 = () => {
   return (
     <div className="container" id="about-container">
       <h1 id="about-heading">About Us</h1>
-      <div class="about-section-container" style={{backgroundColor:"#C06F49"}}>
+      <div class="about-section-container" style={{backgroundColor:"var(--col-bg-orange)"}}>
         <div id="about-image-div">
           <img
             className="image"
@@ -24,7 +24,7 @@ of exciting minigames.
           </p>
         </div>
       </div>
-      <div class="about-section-container" style={{backgroundColor:"#325598"}}>
+      <div class="about-section-container" style={{backgroundColor:"var(--col-bg-blue)"}}>
       <div id="about-image-div">
           <img
             className="image"

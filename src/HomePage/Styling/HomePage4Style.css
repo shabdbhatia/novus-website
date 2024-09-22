@@ -15,7 +15,7 @@
     align-items: center;
     
     width: 80%;
-    background-color: #325598;
+    background-color: var(--col-bg-blue);
     opacity: 85%;
     border-radius: 25px;
     transition: 0.3s ease;
@@ -32,7 +32,7 @@
     font-family: Heavitas;
     font-size: 2rem;
     text-wrap: wrap;
-    color: #E4FCFF;
+    color: var(--col-fg-accent);
 }
 #event-1-image-div{
     width: 80%;
@@ -57,7 +57,7 @@
     align-items: center;
 
     width: 80%;
-    background-color: #C06F49;
+    background-color: var(--col-bg-orange);
     opacity: 85%;
     border-radius: 25px;
     margin: 2rem 0rem 0rem 0rem;
@@ -75,7 +75,7 @@
     font-family: Heavitas;
     font-size: 2rem;
     text-wrap: wrap;
-    color: #F9BA9C;
+    color: var(--col-fg-orange);
 }
 #event-2-image-div{
     display: none;

@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: #325598;
+    background-color: var(--col-bg-blue);
     opacity: 75%;
     width: 80%;
     border-radius: 25px;

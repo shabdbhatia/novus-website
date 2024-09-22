@@ -12,8 +12,8 @@ const HomePage4 = () => {
         <iframe
           class="pdf"
           src={require("./../../Resources/Rulebooks/Scoresheet.pdf")}
-          id="openshowcase-rulebook"
-          title="Open Showcase Scoresheet"
+          id="openinnov-rulebook"
+          title="Open Innovation Scoresheet"
         ></iframe>
       </div>
 
@@ -25,8 +25,8 @@ const HomePage4 = () => {
         >
           <AiOutlineFilePdf className="pdf-icon" id="pdficon-1" />
         </a>
-        <h2 className="Rule-heading" id="rulebook-heading">
-          Open Showcase
+        <h2 className="rulebook-heading" id="open-heading">
+          Open Innovation
         </h2>
       </div>
 
@@ -37,8 +37,8 @@ const HomePage4 = () => {
         <iframe
           class="pdf"
           src={require("./../../Resources/Rulebooks/Roadster Rulebook.pdf")}
-          id="openshowcase-rulebook"
-          title="Open Showcase Scoresheet"
+          id="roadster-rulebook"
+          title="Roadster Scoresheet"
         ></iframe>
       </div>
 
@@ -50,7 +50,7 @@ const HomePage4 = () => {
         >
           <AiOutlineFilePdf className="pdf-icon" id="pdficon-2"/>
         </a>
-        <h2 className="Rule-heading" id="rulebook-heading">
+        <h2 className="rulebook-heading" id="roadster-heading">
           Roadster
         </h2>
       </div>

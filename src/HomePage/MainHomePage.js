@@ -10,7 +10,9 @@ const Landing = () => {
   return (
     <div className="App">
       <div id="home" class="virtualPadding"></div>
+      <div class="virtualPadding"></div>
       <LandingS1 />
+      <div class="virtualPadding"></div>
 
       <div id="about" class="virtualPadding"></div>
       <LandingS3 />
