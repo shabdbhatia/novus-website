@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <a onClick={() => scrollToSection('home')}>Home</a>
         <a onClick={() => scrollToSection('about')}>About</a>
-        <a onClick={() => scrollToSection('events')}>Events</a>
+        <a onClick={() => scrollToSection('challenges')}>Challenges</a>
         <a onClick={() => scrollToSection('rulebooks')}>Rulebooks</a>
         <a onClick={() => scrollToSection('sponsors')}>Sponsors</a>
         {/* <a href="#team" onClick={() => scrollToSection('team')}>Team</a> */}

@@ -4,7 +4,7 @@ import "./../Styling/HomePage4Style.css";
 const HomePage4 = () => {
   return (
     <div className="container" id="event-container">
-      <h1 id="eventdiv-heading">Our Main Events</h1>
+      <h1 id="eventdiv-heading">Challenges</h1>
 
       <div id="event1-container">
         <h2 id="event1-title"> Open Innovation</h2>

@@ -5,7 +5,7 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 const HomePage4 = () => {
   return (
     <div className="container" id="event-container">
-      <h1 id="eventdiv-heading">Rulebooks for the events</h1>
+      <h1 id="eventdiv-heading">Rulebooks</h1>
       <div id="pdf-event1-div">
 
       <div id="pdf-div-desktop-1">

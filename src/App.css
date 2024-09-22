@@ -47,5 +47,11 @@ body{
 }
 
 .virtualPadding {
-  height: 6rem;
+  height: 15rem;
+}
+
+@media (min-aspect-ratio: 1.4) {
+  .virtualPadding {
+    height: 12rem;
+  }
 }

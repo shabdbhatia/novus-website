@@ -56,7 +56,7 @@
 color: #E4FCFF;
 }
 
-@media (min-width: 700px){
+@media (min-aspect-ratio: 1.4){
     #pdf-event1-div{
         flex-direction: column;
         justify-content: center;

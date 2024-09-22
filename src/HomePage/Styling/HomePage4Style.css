@@ -93,7 +93,7 @@
 }
 
 /* DESKTOP CSS  */
-@media (min-width: 700px){
+@media (min-aspect-ratio: 1.4){
     #event-container{
         margin: 0;
     }

@@ -64,7 +64,7 @@
 }
 
 /* Responsive styling */
-@media (max-width: 768px) {
+@media (max-aspect-ratio: 1.4) {
     .navbar-links {
         display: flex;
         flex-direction: column;

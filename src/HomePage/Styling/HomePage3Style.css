@@ -11,19 +11,19 @@
     text-wrap: wrap;
     text-decoration: underline;
 }
-#about-section-container{
+.about-section-container{
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#C06F49;
     opacity: 75%;
 
     padding: 1rem 0rem 0rem 0rem;
     border-radius: 25px;
     transition: 0.3s ease;
+    margin: 1rem 0rem;
 }
-#about-section-container:hover {
+.about-section-container:hover {
     transform: scale(1.02);
 }
 #about-image-div{
@@ -35,13 +35,19 @@
 }
 #about-text-div{
     width: 85%;
-    text-align: justify;
+    text-align: left;
+    hyphens: auto;
     font-family: Montserrat-SemiBold;
 }
 
-/* CSS FOR DESKTOP  */
+@media (min-aspect-ratio: 0.707) {
+    #about-text-div {
+        text-align: justify;
+    }
+}
 
-@media (min-width: 700px){
+/* CSS FOR DESKTOP  */
+@media (min-aspect-ratio: 1.414){
     #about-container{
         margin: 0;
     }
@@ -50,7 +56,7 @@
         text-wrap: wrap;
         text-decoration: underline;
     }
-    #about-section-container{
+    .about-section-container{
         flex-direction: row;
         padding: 0rem 0rem 0rem 0rem;
     }
@@ -62,6 +68,7 @@
         transform: scale(0.7);
     }
     #about-text-div{
+        text-align: justify;
         padding: 1rem 5rem 1rem 1rem;
         font-size: 1.2rem;
     }
