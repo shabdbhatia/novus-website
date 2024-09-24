@@ -4,19 +4,20 @@
   /* background-color: black; */
   /* background-image: url('./../../Resources/Tinted-Bkg.jpeg'); */
   /* height: 64rem; */
+  padding: 2rem 0rem 0rem 0rem;
   margin: 0;
 }
 .section1-subheading{
   font-family: Heavitas;
   color: #325598;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 1rem 0rem 0rem 0rem;
   text-shadow: -4px -4px 0 #101a2d, 4px -4px 0 #101a2d, -4px 4px 0 #101a2d, 4px 4px 0 #101a2d;
 
 }
 .section1-heading{
   font-family: TheBoldFont;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0.25rem 0rem;
   text-wrap: wrap;
 }
@@ -50,7 +51,7 @@
   margin: 0.5rem 0rem 0rem 0rem;
 }
 #s2-headingl2-s1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     background: url(./../../Resources/ComicBkg.jpeg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
@@ -60,30 +61,37 @@
 }
 #s2-headingl2-s2{
     margin: 0rem 0rem 0rem;
-    font-size: 2.5rem;
+    background: url(./../../Resources/ComicBkg.jpeg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
 }
 /* CSS FOR DESKTOP NOW */
 @media (min-aspect-ratio: 1.4){
   .section1-subheading{
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 2rem 0rem 1rem 0rem;
   }
   .section1-heading{
-    font-size: 3.75rem;
-    margin: 0.25rem 0rem 0.25rem 0rem;
+    font-size: 4.5rem;
+    margin: 0.25rem 0rem 1rem 0rem;
   }
   #Main-Heading-Landing2{
-    font-size: 2.25rem;
+    font-size: 3rem;
   }
   .primary-btn{
+    height: 5rem;
+    width: 27.5rem;
     padding: 1.5rem 3rem;
     margin-top: 2rem;
     font-size: 1.5rem;
   }
   #s2-headingl2-s1{
-    font-size: 3.75rem;
+    font-size: 7rem;
   }
   #s2-headingl2-s2{
-    font-size: 3.75rem;
+    font-size: 7rem;
   }
 }
