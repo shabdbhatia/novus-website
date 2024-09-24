@@ -9,19 +9,20 @@
 .section1-subheading{
   font-family: Heavitas;
   color: var(--col-bg-blue);
-  font-size: 2rem;
-  margin: 1rem 0rem 0rem 0rem;
+  font-size: 2.5rem;
+  margin: 0rem 0rem 0rem 0rem;
   text-shadow: -4px -4px 0 #101a2d, 4px -4px 0 #101a2d, -4px 4px 0 #101a2d, 4px 4px 0 #101a2d;
 
 }
 .section1-heading{
   font-family: TheBoldFont;
-  font-size: 2.5rem;
-  margin: 0.25rem 0rem;
+  font-size: 3.5rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
   text-wrap: wrap;
 }
 #Main-Heading-Landing2 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  margin: 0.25rem 0rem 0.25rem 0rem;
 }
 .primary-btn{
   background-color: var(--col-bg-blue);
@@ -47,10 +48,10 @@
   justify-content: center;
   align-items: flex-start;
   font-family: TheBoldFont;
-  margin: 0.5rem 0rem 0rem 0rem;
+  margin: 1rem 0rem 0rem 0rem;
 }
 #s2-headingl2-s1{
-    font-size: 2.5rem;
+    font-size: 4rem;
     background: url(./../../Resources/ComicBkg.jpeg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
@@ -60,30 +61,95 @@
 }
 #s2-headingl2-s2{
     margin: 0rem 0rem 0rem;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    background: url(./../../Resources/ComicBkg.jpeg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 /* CSS FOR DESKTOP NOW */
-@media (min-aspect-ratio: 1.4){
+@media (min-aspect-ratio: 0.5){
+  #section1{
+    padding: 1.25rem 0rem 0rem 0rem;
+  }
   .section1-subheading{
-    font-size: 3rem;
-    margin: 2rem 0rem 1rem 0rem;
+    font-size: 3.5rem;
+    margin: 1.5rem 0rem 1rem 0rem;
   }
   .section1-heading{
     font-size: 3.75rem;
-    margin: 0.25rem 0rem 0.25rem 0rem;
+    margin: 2rem 0rem 0.25rem 0rem;
   }
   #Main-Heading-Landing2{
-    font-size: 2.25rem;
+    font-size: 3rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
   }
   .primary-btn{
     padding: 1.5rem 3rem;
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   #s2-headingl2-s1{
-    font-size: 3.75rem;
+    font-size: 5.5rem;
   }
   #s2-headingl2-s2{
+    font-size: 5.5rem;
+  }
+}
+@media (min-aspect-ratio: 1){
+  #section1{
+    padding: 1.5rem 0rem 0rem 0rem;
+  }
+  .section1-subheading{
     font-size: 3.75rem;
+    margin: 1.5rem 0rem 1rem 0rem;
+  }
+  .section1-heading{
+    font-size: 4rem;
+    margin: 2rem 0rem 0.25rem 0rem;
+  }
+  #Main-Heading-Landing2{
+    font-size: 3rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+  .primary-btn{
+    padding: 1.75rem 3.25rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+  #s2-headingl2-s1{
+    font-size: 6rem;
+  }
+  #s2-headingl2-s2{
+    font-size: 6rem;
+  }
+}
+@media (min-aspect-ratio: 1.4){
+  #section1{
+    padding: 5rem 0rem 0rem 0rem;
+  }
+  .section1-subheading{
+    font-size: 4.5rem;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .section1-heading{
+    font-size: 5rem;
+    margin: 2rem 0rem 0.25rem 0rem;
+  }
+  #Main-Heading-Landing2{
+    font-size: 3.5rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+  .primary-btn{
+    padding: 2rem 3.5rem;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
+  #s2-headingl2-s1{
+    font-size: 7rem;
+  }
+  #s2-headingl2-s2{
+    font-size: 7rem;
   }
 }
