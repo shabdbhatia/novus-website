@@ -37,11 +37,11 @@ the Indian Institute of Science (IISc) Bangalore.
       <div id="event2-container">
         <h2 id="event2-title"> Roadster</h2>
         <div id="event2-subcontainer">
-          <div id="event-2-image-div" style={{display:"none"}}>
+          <div id="event-2-image-div">
             <img
               className="image"
               id="roadster-logo"
-              src={require("./../../Resources/Robot-Image.png")}
+              src={require("./../../Resources/Roadster_Logo.jpg")}
               alt="Roadster-Image"
             />
           </div>
