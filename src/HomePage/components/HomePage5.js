@@ -36,7 +36,7 @@ const HomePage4 = () => {
       <div id="pdf-div-desktop-2">
         <iframe
           class="pdf"
-          src={require("./../../Resources/Rulebooks/Roadster Rulebook.pdf")}
+          src={require("./../../Resources/Rulebooks/Roadster Rulebook V2.pdf")}
           id="roadster-rulebook"
           title="Roadster Scoresheet"
         ></iframe>
@@ -44,7 +44,7 @@ const HomePage4 = () => {
 
       <div id="pdf-div-mobile-2">
         <a
-          href={require("./../../Resources/Rulebooks/Roadster Rulebook.pdf")}
+          href={require("./../../Resources/Rulebooks/Roadster Rulebook V2.pdf")}
           download
           className="pdf-download"
         >
